@@ -1,0 +1,76 @@
+body{
+    background-color: darkviolet;
+    text-align: center;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 45%;
+    text-align: left;
+    font-size: x-large;
+    padding-top: 15px;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about li{
+    padding-bottom: 15px;
+}
+
+.set{
+    width: 45%;
+    height: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center ;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.reducedShadow{
+    box-shadow: 5px 5px 5px black;
+}
+
+.blink{
+    opacity: 0.2;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: red;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: turquoise;
+}
+
+.game-over{
+    background-color: darkviolet;
+    opacity: 0.7;
+}
