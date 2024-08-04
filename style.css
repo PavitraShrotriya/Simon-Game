@@ -1,6 +1,7 @@
 body{
-    background-color: darkviolet;
+    background: linear-gradient(rgb(159, 11, 223),rgb(226, 146, 226) , rgb(192, 83, 192));
     text-align: center;
+    height: 100vh;
 }
 
 .title{
