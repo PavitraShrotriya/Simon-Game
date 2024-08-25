@@ -10,12 +10,13 @@ var level = 0;
 
 var hardness;
 
-$(document).keypress(function(){
+$(".btn").click(function(){
       if(!started){
         hardness = prompt("Enter the hardness level (between 1 to 3): ");
         hardness = 150/hardness;
         started = true;
         $(".title").text("Level " + level);
+        $(".btn").addClass("hidden");
         nextSequence();
       }
 });
@@ -55,6 +56,7 @@ function checkAnswer(currentLevel){
         }, 1000);
         startOver();
         playAudio("wrong");
+        $(".btn").removeClass("hidden");
     }
 }
 
